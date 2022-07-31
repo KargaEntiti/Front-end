@@ -1,0 +1,177 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    
+}
+*::selection{
+    color:white;
+    background-color:black;
+}
+
+.nav{
+    background: slateblue;
+    padding: 6px;
+    
+}
+.nav__ul__li{
+    font-size: 18px;
+}
+
+.form{
+    color:blue;
+    font-size: 14px;
+}
+.form__input{
+    color:black;
+    font-size: 1em;
+}
+
+header{
+    font-size:15px;
+
+    font-weight: 100;
+    line-height:1.5;
+    color:rgb(255, 0, 0);
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+}
+
+#estudio {
+    background-color: lightblue;
+    display:inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 50px 10px;
+    border-radius: 10px;
+    border: 4px inset grey;
+    box-shadow: 2px 4px 10px 0 #000;
+    text-shadow: 2px 2px 5px #fff;
+    transform:rotate(-5deg);
+}
+h4 {
+    display:inline;
+}
+
+.caja {
+    display:block;
+    background:pink;
+    position:absolute;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    overflow-y: hidden;
+    transition:width 1.2s,height 1s;
+}
+
+div div{
+    height: 50px;
+    width: 275px;
+    background: lightyellow;
+    overflow:auto;
+    overflow: hidden;
+}
+.contenedor{
+    position: relative;
+    border: 4px solid grey;
+    /*margin: 10px auto;  esto acomoda al medio de la página*/
+    height: 155px; 
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.contenedor:hover{
+    height: 300px;
+}
+
+#caja3{
+    top: 0em;
+    background: pink;
+    z-index: 0;
+}
+#caja1{
+    top: 3em;
+    background:darksalmon;
+    z-index: 10;
+}
+#caja2{
+    top: 6em;
+    background:lightcoral;
+    z-index: 20;
+}
+
+.caja:hover{
+    height:400px;
+    width: 99%;
+    text-align: center;
+    /*z-index: 50; para cuando quiera hacerlo en movil*/
+}
+
+#estudio{
+    margin-bottom: 2em;
+}
+
+a{
+    margin-right: 1em;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form{
+    margin-top: 1em;
+    display: block;
+}
+input{
+    margin:20px;
+    background:lightgrey;
+    transition:background 1s,padding .2s;
+    border-radius: 5px;
+    overflow: auto;
+}
+.envio:focus{
+    background:white;
+    padding: 6px;
+}
+
+ul li{
+    display:inline-block;
+    margin-right: 6em;
+}
+
+#perfil{
+    display:inline;
+    object-fit: scale-down;
+    /*position: relative;*/
+    left: 20em;
+    top:5em;
+
+
+}
+/*#nombre{
+    display:inline-block;
+    
+}*/
+
+#titulo{
+    width: 1000px;
+}
+
+#titulo img{
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+input::placeholder{
+    font-size: 1.4em;
+}
+/*#contacto{
+    transition: all 1s;
+}*/
+
+.enviar{
+    cursor:pointer;
+}
